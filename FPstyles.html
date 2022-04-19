@@ -14,9 +14,33 @@
   font-size: 30px;
   text-align: center;
   font-family: "Brush Script MT", cursive;
-
 }
+
 h1 {
 line-height: 40px;
 }
 
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+backgroud-color: #f1f1f1;
+}
+
+li a {
+display: block;
+color: #000;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+li a.active {
+background-color: white;
+color: white;
+}
+
+li a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
